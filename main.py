@@ -2,7 +2,7 @@ from etl.extract import extract_reviews
 from etl.transform import transform_reviews
 from etl.load import load_to_csv
 
-RAW_PATH = "P:\\2025\\ETL\\ETL-Rayban-Reviews\\data\\raw\\reviews.csv"
+RAW_PATH = "data\\raw\\reviews.csv"
 PROCESSED_PATH = "data\\processed\\reviews_clean.csv"
 
 
